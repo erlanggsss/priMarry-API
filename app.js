@@ -16,7 +16,7 @@ app.use('/counseling', counselingRoutes);
 
 // Rute Default untuk Akar ("/")
 app.get('/', (req, res) => {
-  res.send('Ok!');
+  res.send('halo dunia!');
 });
 
 // Error handling middleware
